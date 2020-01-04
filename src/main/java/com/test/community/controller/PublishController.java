@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletRequest;
  *
  */
 @Controller
-public class PublishControler {
+public class PublishController {
 
     @Autowired
     private QuestionMapper questionMapper;

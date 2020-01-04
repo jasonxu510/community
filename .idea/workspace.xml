@@ -2,17 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f2dafd1-f239-4dd1-a3a6-8ea7eaee9cb2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/community.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/community.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/community/controller/ProfileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/community/dto/PaginationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/community/dto/QuestionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/community/service/QuestionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/navigation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/community/dto/PaginationDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/community/dto/QuestionDTO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/test/community/service/QuestionService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/navigation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/community/controller/AuthorizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/community/controller/AuthorizeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/community/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/community/controller/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/community/controller/PublishControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/community/controller/PublishControler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/community/dto/AccessTokenDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/community/dto/AccessTokenDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/community/controller/PublishControler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/community/controller/PublishController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/community/dto/GithubUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/community/dto/GithubUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/community/mapper/QuestionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/community/mapper/QuestionMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/community/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/community/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/community/model/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/community/model/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/community/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/community/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/community.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/publish.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/community/controller/AuthorizeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/community/controller/AuthorizeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/community/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/community/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/community/controller/PublishControler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/community/controller/PublishControler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/community/dto/AccessTokenDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/community/dto/AccessTokenDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/community/dto/GithubUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/community/dto/GithubUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/community/mapper/QuestionMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/community/mapper/QuestionMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/community/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/community/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/community/model/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/community/model/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/community/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/community/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/community.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/community.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/publish.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/publish.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,13 +110,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\xuchencheng\IdeaProjects\community\src\main\resources\static" />
       <recent name="C:\Users\xuchencheng\IdeaProjects\community\src\main\resources\static\js" />
       <recent name="C:\Users\xuchencheng\IdeaProjects\community\src\main\java\com\test\community" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/templates" />
+      <recent name="$PROJECT_DIR$/src/main/resources/static/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -132,6 +159,11 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
             </expand>
             <select />
           </treeState>
@@ -164,7 +196,9 @@
       <workItem from="1577887948147" duration="5293000" />
       <workItem from="1577895499220" duration="579000" />
       <workItem from="1577896306657" duration="284000" />
-      <workItem from="1577896652604" duration="175000" />
+      <workItem from="1577896652604" duration="242000" />
+      <workItem from="1577975111603" duration="2993000" />
+      <workItem from="1578101402136" duration="10160000" />
     </task>
     <task id="LOCAL-00001" summary="修改了配置文件">
       <created>1577373889235</created>
@@ -187,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577894303740</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加lombok插件功能">
+      <created>1577896895159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577896895160</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +252,8 @@
     <MESSAGE value="修改了配置文件" />
     <MESSAGE value="添加持久化登陆功能" />
     <MESSAGE value="添加文章发布功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加文章发布功能" />
+    <MESSAGE value="添加lombok插件功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加lombok插件功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="240" y="65" key="#Inspections" timestamp="1577370768270">
@@ -228,10 +270,10 @@
     </state>
     <state x="457" y="53" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1577895603852" />
     <state x="488" y="48" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577357930510" />
-    <state x="116" y="2" key="CommitChangelistDialog2" timestamp="1577894303496">
+    <state x="116" y="2" key="CommitChangelistDialog2" timestamp="1577896894983">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="116" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1577894303496" />
+    <state x="116" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1577896894983" />
     <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1577615580837">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -240,45 +282,45 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577332020330" />
-    <state width="846" height="296" key="GridCell.Tab.0.bottom" timestamp="1577895494562">
+    <state width="846" height="99" key="GridCell.Tab.0.bottom" timestamp="1578146510130">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="846" height="296" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1577895494562" />
+    <state width="846" height="99" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578146510130" />
     <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577360285013" />
-    <state width="846" height="296" key="GridCell.Tab.0.center" timestamp="1577895494561">
+    <state width="846" height="99" key="GridCell.Tab.0.center" timestamp="1578146510129">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="846" height="296" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1577895494561" />
+    <state width="846" height="99" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1578146510129" />
     <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577360285013" />
-    <state width="846" height="296" key="GridCell.Tab.0.left" timestamp="1577895494560">
+    <state width="846" height="99" key="GridCell.Tab.0.left" timestamp="1578146510126">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="846" height="296" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1577895494560" />
+    <state width="846" height="99" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1578146510126" />
     <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577360285013" />
-    <state width="846" height="296" key="GridCell.Tab.0.right" timestamp="1577895494561">
+    <state width="846" height="99" key="GridCell.Tab.0.right" timestamp="1578146510130">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="846" height="296" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1577895494561" />
+    <state width="846" height="99" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1578146510130" />
     <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577360285013" />
-    <state width="846" height="296" key="GridCell.Tab.1.bottom" timestamp="1577895494563">
+    <state width="846" height="99" key="GridCell.Tab.1.bottom" timestamp="1578146510133">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="846" height="296" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1577895494563" />
+    <state width="846" height="99" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1578146510133" />
     <state width="1323" height="215" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577360285013" />
-    <state width="846" height="296" key="GridCell.Tab.1.center" timestamp="1577895494562">
+    <state width="846" height="99" key="GridCell.Tab.1.center" timestamp="1578146510131">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="846" height="296" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1577895494562" />
+    <state width="846" height="99" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1578146510131" />
     <state width="1323" height="215" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577360285013" />
-    <state width="846" height="296" key="GridCell.Tab.1.left" timestamp="1577895494562">
+    <state width="846" height="99" key="GridCell.Tab.1.left" timestamp="1578146510131">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="846" height="296" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1577895494562" />
+    <state width="846" height="99" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1578146510131" />
     <state width="1323" height="215" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577360285013" />
-    <state width="846" height="296" key="GridCell.Tab.1.right" timestamp="1577895494563">
+    <state width="846" height="99" key="GridCell.Tab.1.right" timestamp="1578146510132">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="846" height="296" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1577895494563" />
+    <state width="846" height="99" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1578146510132" />
     <state width="1323" height="215" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577360285013" />
     <state width="234" height="457" key="HiddenNamespacesPopup" timestamp="1577678186476">
       <screen x="0" y="0" width="1280" height="800" />
@@ -293,10 +335,10 @@
     </state>
     <state x="172" y="23" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1577896639345" />
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577341789894" />
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1577894318113">
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1577896904191">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1577894318113" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1577896904191" />
     <state x="506" y="170" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1577615945399">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -321,9 +363,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="305" y="185" width="670" height="675" key="run.anything.popup/0.0.1280.800@0.0.1280.800" timestamp="1577370465309" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1577355326087">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="324" y="54" width="670" height="746" key="search.everywhere.popup" timestamp="1578134954008">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="324" y="54" width="670" height="746" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1578134954008" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1577355326087" />
   </component>
 </project>
